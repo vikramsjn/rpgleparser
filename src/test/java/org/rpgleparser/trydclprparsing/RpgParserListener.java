@@ -10,9 +10,8 @@ import org.rpgleparser.RpgParser.KeywordContext;
 import org.rpgleparser.RpgParser.RContext;
 import org.rpgleparser.RpgParserBaseListener;
 
-public class TestRpgParserListener extends RpgParserBaseListener 
+public class RpgParserListener extends RpgParserBaseListener 
 {
-
 	@Override
 	public void enterR(RContext ctx) 
 	{
@@ -31,7 +30,7 @@ public class TestRpgParserListener extends RpgParserBaseListener
 	public void enterAll(AllContext ctx) 
 	{
 		super.enterAll(ctx);
-//		System.out.println("enterAll(AllContext ctx)");
+		//System.out.println("enterAll(AllContext ctx)");
 	}
 
 	@Override
